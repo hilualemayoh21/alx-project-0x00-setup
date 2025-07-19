@@ -12,4 +12,4 @@ import { Geist, Geist_Mono } from "next/font/google";
     )
   }
 
-  export default Home ;
+ export default Home;
