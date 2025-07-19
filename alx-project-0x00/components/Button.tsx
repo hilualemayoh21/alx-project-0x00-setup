@@ -6,7 +6,7 @@ const Button: React.FC<ButtonProps> = ({
     size = "medium",
     shape = "rounded-md",
     onClick,
-    className =""
+    styles
 }) =>{
    const sizeClasses = {
     small: "px-2 py-1 text-sm",
@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({
 
     return (
         <button onClick={onClick}
-        className={`bg-blue-500 text-white ${sizeClasses[size]} ${shapeClasses[shape]} ${className}`}>{title}</button>
+        className={`bg-blue-500 text-white ${sizeClasses[size]} ${shapeClasses[shape]} ${styles}`}>{title}</button>
     )
 }
 
