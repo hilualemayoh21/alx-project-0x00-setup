@@ -4,7 +4,7 @@ const Landing: React.FC = ()=>{
       return(
         <div className="">
            <h1 className="text-xl font-extralight">Landing Page</h1>
-           
+
            <Card/>
 
  <div className="space-x-4">
@@ -20,6 +20,13 @@ const Landing: React.FC = ()=>{
     shape="rounded-md"
     styles="bg-green-500 text-white hover:bg-green-600"
   />
+  <Button
+  title="Large Rounded Button"
+  size="large"
+  shape="rounded-lg"
+  styles="bg-red-500 text-white hover:bg-red-600"
+/>
+
   <Button
     title="Large Button"
     size="large"
